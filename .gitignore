@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ChromaDB generated database (do not commit)
+chroma_db/
+
+# Logs
+*.log
+logs/
+
+# Environment variables / secrets
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# College documents (never commit private PDFs)
+data/*.pdf
+!data/README.md
+
+# Evaluation outputs (keep template only)
+evaluation/evaluation_results.csv

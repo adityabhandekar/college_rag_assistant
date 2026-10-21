@@ -1,0 +1,3 @@
+id,category,question,expected_source,retrieved_sources,retrieval_correct,answer,refused,correct_refusal,score_correctness,score_relevance,score_groundedness,score_clarity,score_completeness
+1,direct,What is the minimum attendance required to appear for the semester examination?,academic_regulations.pdf,academic_regulations.pdf,True,"According to academic_regulations.pdf page 1, a student must maintain a minimum of 75% attendance.",False,,5,5,5,5,5
+41,unanswerable,What is the hostel fee per year?,,,,"Information not found in the available documents.",True,True,,,,,
